@@ -22,6 +22,8 @@ CKAN is a powerful data management system that makes data accessible – by prov
 * [Install CKAN Docker](https://docs.ckan.org/en/latest/maintaining/installing/install-from-docker-compose.html)
 
 ### Configuration
+* Run ``cd project Directory``
+* Run ``cd contrib/docker``
 * Run ``docker-compose up -d`` to start the containers
 * Run ``docker-compose exec ckan /usr/local/bin/ckan -c /etc/ckan/production.ini sysadmin add userAdmin`` to add a sysadmin user
 * Run ``docker-compose exec ckan /usr/local/bin/ckan -c /etc/ckan/production.ini config-tool /etc/ckan/production.ini`` to configure the site

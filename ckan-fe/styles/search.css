@@ -1,0 +1,12 @@
+.searchSection{
+    background-image: url('../public/assets/images/ko.jpg');
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.searchForm{
+    min-width: 40%;
+}

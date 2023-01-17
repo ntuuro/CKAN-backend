@@ -1,0 +1,42 @@
+.Avatar{
+    max-height: 35px;
+    max-width: 35px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.room_btn{
+    display: flex!important;
+    align-items: center!important;
+    background: #d51f97!important;
+    border-radius: .25rem!important;
+    color: white!important;
+}
+
+.room_btn:hover{
+    display: flex!important;
+    background: #fff!important;
+    border-radius: .25rem!important;
+    color: #d51f97!important;
+    cursor: pointer;
+}
+.emptyImages{
+    max-width: 70%;
+    max-height: 70%;
+    min-width: 70% !important;
+    min-height: 70% !important;
+}
+.projectBackground{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('./chatRoom.css');
+@import url("message.css");
+@import url("ngProgress.css");
+@import url("./Dashboard.css");
+@import url("./success.css");
+@import url("./search.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+#__next{
+  min-height: 100vh;
+}
+
+.right-bubble::-webkit-media-controls-play-button,
+.right-bubble::-webkit-media-controls-panel {
+  background-color: #d51f97;
+  color: #000;
+  margin-left: auto;
+}
+.left-bubble::-webkit-media-controls-play-button,
+.left-bubble::-webkit-media-controls-panel {
+  background-color: #411532;
+  color: #411532;
+}
+
+.image-message-container{
+  min-height: 220px;
+}
+.hidden-input{
+  display: none!important;
+}
+.edit-form-input{
+  margin-top: 1rem!important;
+}
+
+
+
+.ant-form-item{
+  width: 100%;
+}
+.backout{
+  margin-left: -18px;
+}
+.searchInput{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ant-input::placeholder{
+  padding-left:20px!important;
+}
+.ant-input:hover >.ant-input-search-button{
+  z-index: 0!important;
+}
+.ant-input-wrapper{
+  position: relative!important;
+}
+.ant-input-group-addon{
+  position: absolute!important;
+  left: 1px!important;
+}
+.ant-input-search-button{
+  background: transparent!important;
+  border: none!important;
+}
+.ant-input{
+  background: #f7f7f7!important;
+  border-radius: 50px!important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #fff;
+  }
+}
+
+#projectDescription{
+  border-radius: .5rem!important;
+}
+.ant-form-item-explain-error {
+  color: #ff4d4f;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  font-weight:300;
+}
+#description_help >div{
+  margin-top: .35rem!important;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+}
+#projectName_help>div{
+  position: absolute;
+  top: 2rem;
+  left: 0;
+}
+.introjs-button{
+
+  border: 1px solid #d51f97!important;
+
+
+}
+.introjs-button:focus{
+  outline: none!important;
+  box-shadow: 0 0 0 0.1rem rgb(227, 13, 133, 0.5)!important;
+}
+.introjs-helperLayer{
+  box-shadow: #d51f97 0px 0px 1px 2px, rgb(33 33 33 / 50%) 0px 0px 0px 5000px!important;
+}
+
